@@ -19,7 +19,7 @@ void queue_destroy(Queue* queue){
 }
 
 void queue_pprint(Queue* queue){
-    printf("Capacity: %d\n", queue->capacity);
+    printf("Capacity:  %d\n", queue->capacity);
     printf("Head: %p\n", (void*) queue->head);
     printf("Tail: %p\n", (void*) queue->tail);
     printf("Start of Data: %p\n", (void*) queue->data);
